@@ -1,0 +1,2 @@
+Bogota, 2, UN, 564, 06/11/2013 13  17  2
+Villavicencio, 1, Roberto, 679, 07/12/2013 15  20  4
