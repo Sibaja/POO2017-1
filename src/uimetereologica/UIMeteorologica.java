@@ -38,7 +38,11 @@ public class UIMeteorologica {
         public void registrar (){}
         
         try
-        {}
+        {
+        cargarDatos("datosEstacion.txt");
+        } catch (FileNotFoundException ex) {
+           
+        }
         */
         
     /**
