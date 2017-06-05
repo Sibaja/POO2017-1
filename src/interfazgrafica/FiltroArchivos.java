@@ -21,6 +21,7 @@ public class FiltroArchivos extends FileFilter{
         this.descripcion = descrip;
     }
 
+    @Override
     public boolean accept(File archivo){
 
         if(archivo != null){
@@ -28,8 +29,8 @@ public class FiltroArchivos extends FileFilter{
             if(archivo.isDirectory()){
                 return true;
             }
-            for(int i=0; i<extension.length; i++){
-                if(this.getExtension(archivo).equals(extension[i])){
+            for (String extension1 : extension) {
+                if (this.getExtension(archivo).equals(extension1)) {
                     return true;
                 }
             }
@@ -37,6 +38,7 @@ public class FiltroArchivos extends FileFilter{
         return false;
     }
 
+    @Override
     public String getDescription(){
         return descripcion;
     }

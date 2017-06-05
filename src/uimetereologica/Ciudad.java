@@ -29,6 +29,7 @@ public class Ciudad {
         estacion.add(e);
     }
     
+    @Override
     public String toString(){
         String info="";
         for (EstacionMeteorologica estacionMeteoro : estacion) {

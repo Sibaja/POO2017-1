@@ -53,6 +53,7 @@ public abstract class Sensor {
     
     
     // método abstracto
+    @Override
     public abstract String toString();
     
     
