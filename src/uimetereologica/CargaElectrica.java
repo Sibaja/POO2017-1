@@ -12,6 +12,7 @@ package uimetereologica;
 public class CargaElectrica extends Sensor {
     
     private int tipoQ;
+    protected static final String[] TIPOC = {"1-TormentaElectrica", "2-Rayos", "3-Truenos", "4-Normal"};
     
     //Constructor del Nivel de Carga eléctrica
 
