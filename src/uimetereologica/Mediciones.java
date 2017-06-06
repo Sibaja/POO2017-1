@@ -11,6 +11,7 @@ package uimetereologica;
  */
 public class Mediciones {
 
+//  atributos
     String fecha;
     double temperatura;
     double nivelDeCarga;
